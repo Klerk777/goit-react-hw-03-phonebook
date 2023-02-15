@@ -25,7 +25,7 @@ export class App extends Component {
     }
   }
 
-  addNewContact = ({ name, number }) => {
+  addNewContact = (name, number) => {
     const { contacts } = this.state;
     const normalizedName = name.toLowerCase();
 
